@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  postgres:
+    imagen: postgres:15
+    container_name: sales_dw
+    environment:
+      POSTGRES_DB: sales_dw
+      POSTGRES_USER: dw_user
+      POSTGRES_PASSWORD: dw_user
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
