@@ -1,4 +1,4 @@
-Nome do projeto: Sales Data Warehouse with PySpark
+Nome do projeto: Sales Data Engineering with PySpark
 
 Problema de negócio:
 A empresa possui dados de vendas espalhados em arquivos CSV e precisa de um Data Warehouse para análises de faturamento, produtos e clientes.
